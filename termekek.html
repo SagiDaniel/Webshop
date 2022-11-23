@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="src/img/logo.jpg" alt=""></a>
-        <a class="navbar-brand" href="index.html">IT</a>
+    <a class="navbar-brand"  href="index.html"><img src="src/img/logo.jpg" alt="">IT</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,6 +22,16 @@
             </li>
             <li class="nav-item">
             <a class="nav-link" href="kosar.html">Kosár</a>
+            <li class="nav-item dropdown text-white bg-dark">
+                <a class="nav-link dropdown-toggle text-white bg-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+            <ul class="dropdown-menu text-white bg-dark">
+                <li><a class="dropdown-item text-white" href="#processzor">Processzor</a></li>
+                <li><a class="dropdown-item text-white" href="#videokartya">Videó kártya</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              </ul>
             </li>
         </ul>
         <form class="d-flex" role="search">
@@ -31,7 +40,11 @@
         </form>
         </div>
     </div>
-    </nav>
+</nav>
+
+    <p id="processzor">Processz</p>
+    <p id="videokartya">Videó kártya</p>
+    
       <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">

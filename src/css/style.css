@@ -6,3 +6,13 @@ span{
     float: right;
     vertical-align: bottom;
 }
+.navbar-brand img{
+    margin-right: 5%;
+    height: 25%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
