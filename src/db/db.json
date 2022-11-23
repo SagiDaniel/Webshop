@@ -1,0 +1,15 @@
+[
+   
+    {
+        "id": 1,
+        "title": "Lorem ipsum",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "id": 2,
+        "kep": "randomkep",
+        "termeknev": "Sed et semper lectus",
+        "szoveg": "Nullam non quam et dui pharetra faucibus id vel libero.",
+        "ar":500
+    }
+]
