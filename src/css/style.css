@@ -4,6 +4,7 @@ body {
 .container{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 2%;
 }
 span {
     float: right;
@@ -26,11 +27,14 @@ span {
         "reklam"
         "leiras";
 }
-
+svg{
+  width: 10%;
+  height: 10%;
+  filter: invert(18%) sepia(64%) saturate(4808%) hue-rotate(353deg) brightness(97%) contrast(122%);
+}
 #kosar {
     float: right;
     justify-self: flex-end;
-
 }
 
 .card {
@@ -71,3 +75,4 @@ aside {
             "leiras card";
     }
 }
+
