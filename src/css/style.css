@@ -1,18 +1,73 @@
-body{
-    background-color: 	Gainsboro;
+body {
+    background-color: Gainsboro;
 }
-
-span{
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span {
     float: right;
     vertical-align: bottom;
 }
-.navbar-brand img{
+
+.navbar img {
     margin-right: 5%;
-    height: 25%;
-    width: 25%;
+    height: 40px;
+    width: 40px;
     border-radius: 10px;
 }
 
-.card{
+.cards {
+    
+    display: grid;
+    grid-template-areas:
+        "szoveg"
+        "card"
+        "reklam"
+        "leiras";
+}
+
+#kosar {
+    float: right;
+    justify-self: flex-end;
+
+}
+
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: card;
+}
+
+.cards p {
+    grid-area: leiras;
+}
+
+h5{
+    grid-area: szoveg;
+}
+
+aside {
+    grid-area: reklam;
+}
+
+@media screen and (min-width: 1280px) {
+    .cards {
+        display: grid;
+        grid-template-areas:
+            "szoveg szoveg szoveg"
+            "reklam card card"
+            "reklam card card"
+            "leiras card card";
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cards {
+        display: grid;
+        grid-template-areas:
+            "szoveg szoveg"
+            "reklam card"
+            "reklam card"
+            "leiras card";
+    }
 }
