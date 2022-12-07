@@ -1,102 +1,102 @@
 [
-	{
-		"termeknev": "AMD Ryzen 5 4500",
-		"ar": 33560,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-4500.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 5 5500",
-		"ar": 44550,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5500.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 5 5600",
-		"ar": 63250,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 5 5600G",
-		"ar": 57120,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600g.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 5 5600X",
-		"ar": 74999,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 5 7600X",
-		"ar": 130085,
-		"kepfajlutvonal": "D\\src\\img\\Processzorok\\amd-ryzen-5-7600x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 7 5700G",
-		"ar": 84400,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5700g.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 7 5700X",
-		"ar": 96858,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5700x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 7 5800X",
-		"ar": 102800,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5800x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 7 5800X3D",
-		"ar": 171360,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5800x3d.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 7 7700X",
-		"ar": 171780,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-7700x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 9 5900X",
-		"ar": 159999,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-9-5900x.jpg"
-	},
-	{
-		"termeknev": "AMD Ryzen 9 7950X",
-		"ar": 295000,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-9-7950x.jpg"
-	},
-	{
-		"termeknev": "Intel Core i3-12100F",
-		"ar": 44640,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i3-12100f.jpg"
-	},
-	{
-		"termeknev": "Intel Core i5-10400F",
-		"ar": 49003,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-10400f.jpg"
-	},
-	{
-		"termeknev": "Intel Core i5-12400F",
-		"ar": 81170,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-12400f.jpg"
-	},
-	{
-		"termeknev": "Intel Core i5-13600K",
-		"ar": 154171,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-13600k.jpg"
-	},
-	{
-		"termeknev": "Intel Core i5-13600KF",
-		"ar": 153170,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-13600kf.jpg"
-	},
-	{
-		"termeknev": "Intel Core i7-13700K",
-		"ar": 213280,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i7-13700k.jpg"
-	},
-	{
-		"termeknev": "Intel Core i9-13900K",
-		"ar": 307150,
-		"kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i9-13900k.jpg"
-	}
+    {
+        "termeknev": "AMD Ryzen 5 4500",
+        "ar": 33560,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-4500.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 5 5500",
+        "ar": 44550,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5500.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 5 5600",
+        "ar": 63250,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 5 5600G",
+        "ar": 57120,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600g.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 5 5600X",
+        "ar": 74999,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-5-5600x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 5 7600X",
+        "ar": 130085,
+        "kepfajlutvonal": "D\\src\\img\\Processzorok\\amd-ryzen-5-7600x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 7 5700G",
+        "ar": 84400,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5700g.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 7 5700X",
+        "ar": 96858,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5700x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 7 5800X",
+        "ar": 102800,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5800x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 7 5800X3D",
+        "ar": 171360,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-5800x3d.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 7 7700X",
+        "ar": 171780,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-7-7700x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 9 5900X",
+        "ar": 159999,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-9-5900x.jpg"
+    },
+    {
+        "termeknev": "AMD Ryzen 9 7950X",
+        "ar": 295000,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\amd-ryzen-9-7950x.jpg"
+    },
+    {
+        "termeknev": "Intel Core i3-12100F",
+        "ar": 44640,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i3-12100f.jpg"
+    },
+    {
+        "termeknev": "Intel Core i5-10400F",
+        "ar": 49003,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-10400f.jpg"
+    },
+    {
+        "termeknev": "Intel Core i5-12400F",
+        "ar": 81170,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-12400f.jpg"
+    },
+    {
+        "termeknev": "Intel Core i5-13600K",
+        "ar": 154171,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-13600k.jpg"
+    },
+    {
+        "termeknev": "Intel Core i5-13600KF",
+        "ar": 153170,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i5-13600kf.jpg"
+    },
+    {
+        "termeknev": "Intel Core i7-13700K",
+        "ar": 213280,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i7-13700k.jpg"
+    },
+    {
+        "termeknev": "Intel Core i9-13900K",
+        "ar": 307150,
+        "kepfajlutvonal": "\\src\\img\\Processzorok\\intel-core-i9-13900k.jpg"
+    }
 ]
