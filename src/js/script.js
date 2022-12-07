@@ -1,3 +1,4 @@
+function check(){
 const check = document.getElementById("exampleCheck1").checked;
 if(check==false)
 {
@@ -17,3 +18,6 @@ function vasarlas()
 {
     alert("Sikeres vásárlás")
 }
+}
+
+

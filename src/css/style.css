@@ -1,10 +1,11 @@
 body {
     background-color: Gainsboro;
+    text-align: center;
 }
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
 }
 span {
     float: right;
@@ -17,16 +18,10 @@ span {
     width: 40px;
     border-radius: 10px;
 }
-
-.cards {
-    
-    display: grid;
-    grid-template-areas:
-        "szoveg"
-        "card"
-        "reklam"
-        "leiras";
+.card{
+    margin: 10px 0 10px 0;
 }
+
 svg{
   width: 10%;
   height: 10%;
@@ -36,4 +31,32 @@ svg{
     float: right;
     justify-self: flex-end;
 }
-
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+#first{
+    background-image: url("../img/Reklam/elso.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    
+}
+#szoveg{
+    color: rgba(255, 255, 255 ,.25);
+    text-decoration: none;
+}
+#masodik{
+    background-image: url("../img/Reklam/masodik.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    
+}
