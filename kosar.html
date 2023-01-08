@@ -34,11 +34,14 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
+                    <button class="btn btn-outline-light" type="submit" id="search">Search</button>
                 </form>
             </div>
         </div>
     </nav>
+
+<div class="kosarfetch"></div>
+
     <div class="container">
 
         <div class="modal" tabindex="-1">
@@ -59,43 +62,96 @@
             </div>
         </div>
 
-<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-    Vásárlás
-  </button>
-  
-  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Vásárlás</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Vásárlás
+        </button>
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Vásárlás</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6">
+                                <label for="validationCustom01" class="form-label">Vezetéknév</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="Mark"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom02" class="form-label">Keresztnév</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="Otto"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="validationCustom02" class="form-label">Email</label>
+                                <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend"><button type="button" class="btn btn-outline-dark" onclick="kukac()">@</button></span>
+                                <input type="email" class="form-control" id="email" placeholder="valakivagyok@gmail.com"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">Város, Utca</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom04" class="form-label">Közterület</label>
+                                <select class="form-select" id="regio" required>
+                                    <option selected disabled value="">Valasszon...</option>
+                                    <option>Út</option>
+                                    <option>Utca</option>
+                                    <option>Tér</option>
+                                    <option>Köz</option>
+                                    <option>Körút</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">Házszám</label>
+                                <input type="text" class="form-control" id="postakod" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                        onclick="check()" required>
+                                    <label class="form-check-label" style="float:left;" for="invalidCheck">
+                                        Fogadja el a feltételeket
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        Beküldés előtt el kell fogadnia.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 d-grid gap-2">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal" >Mégse</button>
+                            </div>
+                            <div class="col-6 d-grid gap-2">
+                                <button class="btn btn-success" type="submit" disabled onclick="vasarlas()"
+                                    id="vasar">Vásárlás</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="check()">
-                  <label class="form-check-label" for="exampleCheck1">Nem vagyok robot</label>
-                </div>
-              </form>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezár</button>
-          <button type="button" class="btn btn-success" id="vasarlas" onclick="vasarlas()" data-bs-dismiss="modal" >Vásárlás</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Törlés
         </button>
@@ -130,12 +186,15 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nem</button>
-                        <button type="button" class="btn btn-danger" onclick="torles()" data-bs-dismiss="modal">Igen</button>
+                        <button type="button" class="btn btn-danger" onclick="torles()"
+                            data-bs-dismiss="modal">Igen</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
