@@ -1,53 +1,28 @@
 [
     {
-        "termeknev": "ASUS GeForce RTX 3060 TI OC Edition 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-GAMING)",
-        "ar": 325990,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_ROG-STRIX-RTX3060TI-O8G-GAMING.jpg"
-    },
-    {
-        "termeknev": "MSI RTX 3060 Ti 8GB GDDR6 256bit (RTX 3060 Ti GAMING X 8G LHR)",
-        "ar": 230270,
-        "kep": "\\src\\img\\Videokartyak\\MSI_RTX-3060-Ti-GAMING-X-8G-LHR.jpg"
-    },
-    {
-        "termeknev": "ASUS Radeon RX 6800 XT O16GB GDDR6 (TUF-RX6800XT-O16G-GAMING)",
-        "ar": 259900,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RX6800XT-O16G-GAMING.jpg"
-    },
-    {
-        "termeknev": "SAPPHIRE Radeon PULSE RX 6600 8GB GDDR6 128bit (11310-01-20G)",
-        "ar": 122869,
-        "kep": "\\src\\img\\Videokartyak\\SAPPHIRE_11310-01-20G.jpg"
-    },
-    {
-        "termeknev": "ASUS GeForce RTX 4090 24GB GDDR6 (TUF-RTX4090-24G-GAMING)",
-        "ar": 1772900,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX4090-24G-GAMING.jpg"
-    },
-    {
         "termeknev": "ASUS GeForce Dual V2 RTX 3060 12GB OC GDDR6 192bit LHR (DUAL-RTX3060-O12G-V2)",
         "ar": 173940,
         "kep": "\\src\\img\\Videokartyak\\ASUS_DUAL-RTX3060-O12G-V2.jpg"
     },
     {
-        "termeknev": "SAPPHIRE PULSE AMD Radeon RX 6700 XT 12GB GDDR6 192bit (11306-02-20G)",
-        "ar": 199990,
-        "kep": "\\src\\img\\Videokartyak\\SAPPHIRE_11306-02-20G.jpg"
+        "termeknev": "ASUS GeForce GTX 1660 SUPER OC EDITION 6GB GDDR6 (TUF-GTX1660S-O6G-GAMING)",
+        "ar": 124299,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-GTX1660S-O6G-GAMING.jpg"
     },
     {
-        "termeknev": "ASUS GeForce RTX 3070 Ti 8GB OC GDDR6X 256bit (ROG-STRIX-RTX3070TI-O8G-GAMING)",
-        "ar": 324510,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_ROG-STRIX-RTX3070TI-O8G-GAMING.jpg"
+        "termeknev": "ASUS GeForce RTX 2060 DUAL OC EVO 6GB GDDR6 192bit (DUAL-RTX2060-O6G-EVO)",
+        "ar": 142299,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_DUAL-RTX2060-O6G-EVO.jpg"
     },
     {
-        "termeknev": "ASUS Radeon RX 6900 XT TUF GAMING 16GB GDDR6 256bit (TUF-RX6900XT-O16G-GAMING)",
-        "ar": 359990,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RX6900XT-O16G-GAMING.jpg"
+        "termeknev": "ASUS GeForce RTX 3060 12GB GDDR6 V2 OC LHR (TUF-RTX3060-O12G-V2-GAMING)",
+        "ar": 206470,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX3060-O12G-V2-GAMING.jpg"
     },
     {
-        "termeknev": "ASUS GeForce RTX 4080 16G (TUF-RTX4080-O16G-GAMING)",
-        "ar": 709990,
-        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX4080-O16G-GAMING.jpg"
+        "termeknev": "ASUS GeForce RTX 3060 TI OC Edition 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-GAMING)",
+        "ar": 325990,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_ROG-STRIX-RTX3060TI-O8G-GAMING.jpg"
     },
     {
         "termeknev": "ASUS GeForce RTX 3060 Ti OC 8GB GDDR6 256bit LHR (TUF-RTX3060TI-O8G-V2-GAMING)",
@@ -55,48 +30,73 @@
         "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX3060TI-O8G-V2-GAMING.jpg"
     },
     {
-        "termeknev": "ASUS GeForce RTX 3060 12GB GDDR6 V2 OC LHR (TUF-RTX3060-O12G-V2-GAMING)",
-        "ar": 206470,
-        "kep": "file"
+        "termeknev": "ASUS GeForce RTX 3070 Ti 8GB OC GDDR6X 256bit (ROG-STRIX-RTX3070TI-O8G-GAMING)",
+        "ar": 324510,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_ROG-STRIX-RTX3070TI-O8G-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "ASUS GeForce RTX 4080 16G (TUF-RTX4080-O16G-GAMING)",
+        "ar": 709990,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX4080-O16G-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "ASUS GeForce RTX 4090 24GB GDDR6 (TUF-RTX4090-24G-GAMING)",
+        "ar": 1772900,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX4090-24G-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "ASUS Radeon RX 6800 XT O16GB GDDR6 (TUF-RX6800XT-O16G-GAMING)",
+        "ar": 259900,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RX6800XT-O16G-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "ASUS Radeon RX 6900 XT TUF GAMING 16GB GDDR6 256bit (TUF-RX6900XT-O16G-GAMING)",
+        "ar": 359990,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RX6900XT-O16G-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "ASUS TUF Gaming RTX 3060 Ti OC Edition 8G GDDR6X (TUF-RTX3060TI-O8GD6X-GAMING)",
+        "ar": 233690,
+        "kep": "\\src\\img\\Videokartyak\\ASUS_TUF-RTX3060TI-O8GD6X-GAMING.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "MSI RTX 3060 Ti 8GB GDDR6 256bit (RTX 3060 Ti GAMING X 8G LHR)",
+        "ar": 230270,
+        "kep": "\\src\\img\\Videokartyak\\MSI_RTX-3060-Ti-GAMING-X-8G-LHR.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "PowerColor Radeon RX 6600 XT 8GB (AXRX 6600XT 8GBD6-3DHE/OC)",
+        "ar": 134805,
+        "kep": "\\src\\img\\Videokartyak\\POWERCOLOR_AXRX_6600XT_8GBD6-3DHE--OC.jpg"
     },
     {
-        "termeknev": "PLACEHOLDER",
-        "ar": 99999,
-        "kep": "file"
+        "termeknev": "PowerColor Radeon RX 6700XT Red Devil 12GB OC DDR6 (AXRX 6700XT 12GBD6-3DHE/OC)",
+        "ar": 210190,
+        "kep": "\\src\\img\\Videokartyak\\POWERCOLOR_AXRX_6700XT_12GBD6-3DHE--OC.jpg"
+    },
+    {
+        "termeknev": "SAPPHIRE PULSE AMD Radeon RX 6700 XT 12GB GDDR6 192bit (11306-02-20G)",
+        "ar": 199990,
+        "kep": "\\src\\img\\Videokartyak\\SAPPHIRE_11306-02-20G.jpg"
+    },
+    {
+        "termeknev": "SAPPHIRE Radeon PULSE RX 6600 8GB GDDR6 128bit (11310-01-20G)",
+        "ar": 122869,
+        "kep": "\\src\\img\\Videokartyak\\SAPPHIRE_11310-01-20G.jpg"
+    },
+    {
+        "termeknev": "SAPPHIRE Radeon RX 6700 10G OC DDR6 (11321-02-20G)",
+        "ar": 154990,
+        "kep": "\\src\\img\\Videokartyak\\SAPPHIRE_11321-02-20G.jpg"
+    },
+    {
+        "termeknev": "XFX RX-7900XT MERC310 20GB GDDR6 (RX-79TMERCB9)",
+        "ar": 471190,
+        "kep": "\\src\\img\\Videokartyak\\XFX_RX-79TMERCB9.jpg"
+    },
+    {
+        "termeknev": "ZOTAC GeForce RTX 4090 Trinity OC 24GB GDDR6X 384bit (ZT-D40900J-10P) ",
+        "ar": 1149950,
+        "kep": "\\src\\img\\Videokartyak\\ZOTAC_ZT-D40900J-10P.jpg"
     }
 ]
